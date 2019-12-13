@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "TheProxy": {
+      "matchCondition": {
+        "route": "api/proxy"
+      },
+      "backendUri": "http://localhost/api/the-route"
+    }
+  }
+}
